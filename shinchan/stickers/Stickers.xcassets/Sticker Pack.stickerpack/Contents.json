@@ -1,0 +1,83 @@
+{
+  "stickers" : [
+    {
+      "filename" : "shin2@3x.sticker"
+    },
+    {
+      "filename" : "shin3@3x.sticker"
+    },
+    {
+      "filename" : "shin4@3x.sticker"
+    },
+    {
+      "filename" : "shin5@3x.sticker"
+    },
+    {
+      "filename" : "shin6@3x.sticker"
+    },
+    {
+      "filename" : "shin7@3x.sticker"
+    },
+    {
+      "filename" : "shin8@3x.sticker"
+    },
+    {
+      "filename" : "shin9@3x.sticker"
+    },
+    {
+      "filename" : "shin10@3x.sticker"
+    },
+    {
+      "filename" : "shin11@3x.sticker"
+    },
+    {
+      "filename" : "shin12@3x.sticker"
+    },
+    {
+      "filename" : "shin13@3x.sticker"
+    },
+    {
+      "filename" : "shin14@3x.sticker"
+    },
+    {
+      "filename" : "shin15@3x.sticker"
+    },
+    {
+      "filename" : "shin16@3x.sticker"
+    },
+    {
+      "filename" : "shin17@3x.sticker"
+    },
+    {
+      "filename" : "shin18@3x.sticker"
+    },
+    {
+      "filename" : "shin19@3x.sticker"
+    },
+    {
+      "filename" : "shin20@3x.sticker"
+    },
+    {
+      "filename" : "shin21@3x.sticker"
+    },
+    {
+      "filename" : "shin23@3x.sticker"
+    },
+    {
+      "filename" : "shin24@3x.sticker"
+    },
+    {
+      "filename" : "shin22@3x.sticker"
+    },
+    {
+      "filename" : "shin1@3x.sticker"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "grid-size" : "small"
+  }
+}

@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3074B0A9241D4B9900CAF8C3 /* StickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3074B0A8241D4B9900CAF8C3 /* StickerViewController.m */; };
+		3074B0AD241DD6DC00CAF8C3 /* SGCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3074B0AB241DD6DC00CAF8C3 /* SGCollectionViewCell.m */; };
+		3074B0AE241DD6DC00CAF8C3 /* SGCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3074B0AC241DD6DC00CAF8C3 /* SGCollectionViewCell.xib */; };
+		3074B0C6241DDA4E00CAF8C3 /* shin10@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3074B0AF241DDA4D00CAF8C3 /* shin10@3x.png */; };
+		3074B0C7241DDA4E00CAF8C3 /* shin11@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3074B0B0241DDA4D00CAF8C3 /* shin11@3x.png */; };
+		3074B0C8241DDA4E00CAF8C3 /* shin15@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3074B0B1241DDA4D00CAF8C3 /* shin15@3x.png */; };
+		3074B0C9241DDA4E00CAF8C3 /* shin12@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3074B0B2241DDA4D00CAF8C3 /* shin12@3x.png */; };
+		3074B0CA241DDA4E00CAF8C3 /* shin4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3074B0B3241DDA4D00CAF8C3 /* shin4@3x.png */; };
+		3074B0CB241DDA4E00CAF8C3 /* shin17@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3074B0B4241DDA4D00CAF8C3 /* shin17@3x.png */; };
+		3074B0CC241DDA4E00CAF8C3 /* shin19@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3074B0B5241DDA4D00CAF8C3 /* shin19@3x.png */; };
+		3074B0CD241DDA4E00CAF8C3 /* shin23@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3074B0B6241DDA4D00CAF8C3 /* shin23@3x.png */; };
+		3074B0CE241DDA4E00CAF8C3 /* shin3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3074B0B7241DDA4D00CAF8C3 /* shin3@3x.png */; };
+		3074B0CF241DDA4E00CAF8C3 /* shin2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3074B0B8241DDA4D00CAF8C3 /* shin2@3x.png */; };
+		3074B0D0241DDA4E00CAF8C3 /* shin9@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3074B0B9241DDA4D00CAF8C3 /* shin9@3x.png */; };
+		3074B0D1241DDA4E00CAF8C3 /* shin14@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3074B0BA241DDA4D00CAF8C3 /* shin14@3x.png */; };
+		3074B0D2241DDA4E00CAF8C3 /* shin1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3074B0BB241DDA4D00CAF8C3 /* shin1@3x.png */; };
+		3074B0D3241DDA4E00CAF8C3 /* shin5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3074B0BC241DDA4E00CAF8C3 /* shin5@3x.png */; };
+		3074B0D4241DDA4E00CAF8C3 /* shin16@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3074B0BD241DDA4E00CAF8C3 /* shin16@3x.png */; };
+		3074B0D5241DDA4E00CAF8C3 /* shin24@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3074B0BE241DDA4E00CAF8C3 /* shin24@3x.png */; };
+		3074B0D6241DDA4E00CAF8C3 /* shin6@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3074B0BF241DDA4E00CAF8C3 /* shin6@3x.png */; };
+		3074B0D7241DDA4E00CAF8C3 /* shin8@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3074B0C0241DDA4E00CAF8C3 /* shin8@3x.png */; };
+		3074B0D8241DDA4E00CAF8C3 /* shin7@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3074B0C1241DDA4E00CAF8C3 /* shin7@3x.png */; };
+		3074B0D9241DDA4E00CAF8C3 /* shin20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3074B0C2241DDA4E00CAF8C3 /* shin20@3x.png */; };
+		3074B0DA241DDA4E00CAF8C3 /* shin21@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3074B0C3241DDA4E00CAF8C3 /* shin21@3x.png */; };
+		3074B0DB241DDA4E00CAF8C3 /* shin18@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3074B0C4241DDA4E00CAF8C3 /* shin18@3x.png */; };
+		3074B0DC241DDA4E00CAF8C3 /* shin13@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3074B0C5241DDA4E00CAF8C3 /* shin13@3x.png */; };
+		3074B0DE241DEBD900CAF8C3 /* shin22@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3074B0DD241DEBD900CAF8C3 /* shin22@3x.png */; };
+		3098B5A52419FAC500B66E7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3098B5A42419FAC500B66E7A /* AppDelegate.m */; };
+		3098B5A82419FAC500B66E7A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3098B5A72419FAC500B66E7A /* SceneDelegate.m */; };
+		3098B5B12419FAC500B66E7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3098B5AF2419FAC500B66E7A /* Main.storyboard */; };
+		3098B5B32419FAC700B66E7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3098B5B22419FAC700B66E7A /* Assets.xcassets */; };
+		3098B5B62419FAC700B66E7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3098B5B42419FAC700B66E7A /* LaunchScreen.storyboard */; };
+		3098B5B92419FAC700B66E7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3098B5B82419FAC700B66E7A /* main.m */; };
+		3098B5C5241A7ECF00B66E7A /* launch@3x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3098B5C4241A7ECF00B66E7A /* launch@3x.jpeg */; };
+		3098B5CB241A803500B66E7A /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3098B5CA241A803500B66E7A /* Stickers.xcassets */; };
+		3098B5CF241A803500B66E7A /* stickers.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3098B5C8241A803400B66E7A /* stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		30B2AB2D241D45B700B622AA /* appicon2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B2AB2C241D45B700B622AA /* appicon2@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3098B5CD241A803500B66E7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3098B5982419FAC500B66E7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3098B5C7241A803400B66E7A;
+			remoteInfo = stickers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3098B5D3241A803600B66E7A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3098B5CF241A803500B66E7A /* stickers.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3074B0A7241D4B9900CAF8C3 /* StickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StickerViewController.h; path = "贴纸/StickerViewController.h"; sourceTree = "<group>"; };
+		3074B0A8241D4B9900CAF8C3 /* StickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = StickerViewController.m; path = "贴纸/StickerViewController.m"; sourceTree = "<group>"; };
+		3074B0AA241DD6DC00CAF8C3 /* SGCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGCollectionViewCell.h; sourceTree = "<group>"; };
+		3074B0AB241DD6DC00CAF8C3 /* SGCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGCollectionViewCell.m; sourceTree = "<group>"; };
+		3074B0AC241DD6DC00CAF8C3 /* SGCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SGCollectionViewCell.xib; sourceTree = "<group>"; };
+		3074B0AF241DDA4D00CAF8C3 /* shin10@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shin10@3x.png"; sourceTree = "<group>"; };
+		3074B0B0241DDA4D00CAF8C3 /* shin11@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shin11@3x.png"; sourceTree = "<group>"; };
+		3074B0B1241DDA4D00CAF8C3 /* shin15@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shin15@3x.png"; sourceTree = "<group>"; };
+		3074B0B2241DDA4D00CAF8C3 /* shin12@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shin12@3x.png"; sourceTree = "<group>"; };
+		3074B0B3241DDA4D00CAF8C3 /* shin4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shin4@3x.png"; sourceTree = "<group>"; };
+		3074B0B4241DDA4D00CAF8C3 /* shin17@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shin17@3x.png"; sourceTree = "<group>"; };
+		3074B0B5241DDA4D00CAF8C3 /* shin19@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shin19@3x.png"; sourceTree = "<group>"; };
+		3074B0B6241DDA4D00CAF8C3 /* shin23@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shin23@3x.png"; sourceTree = "<group>"; };
+		3074B0B7241DDA4D00CAF8C3 /* shin3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shin3@3x.png"; sourceTree = "<group>"; };
+		3074B0B8241DDA4D00CAF8C3 /* shin2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shin2@3x.png"; sourceTree = "<group>"; };
+		3074B0B9241DDA4D00CAF8C3 /* shin9@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shin9@3x.png"; sourceTree = "<group>"; };
+		3074B0BA241DDA4D00CAF8C3 /* shin14@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shin14@3x.png"; sourceTree = "<group>"; };
+		3074B0BB241DDA4D00CAF8C3 /* shin1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shin1@3x.png"; path = "../../../../../Downloads/shin/24/ok/shin1@3x.png"; sourceTree = "<group>"; };
+		3074B0BC241DDA4E00CAF8C3 /* shin5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shin5@3x.png"; sourceTree = "<group>"; };
+		3074B0BD241DDA4E00CAF8C3 /* shin16@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shin16@3x.png"; sourceTree = "<group>"; };
+		3074B0BE241DDA4E00CAF8C3 /* shin24@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shin24@3x.png"; sourceTree = "<group>"; };
+		3074B0BF241DDA4E00CAF8C3 /* shin6@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shin6@3x.png"; sourceTree = "<group>"; };
+		3074B0C0241DDA4E00CAF8C3 /* shin8@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shin8@3x.png"; sourceTree = "<group>"; };
+		3074B0C1241DDA4E00CAF8C3 /* shin7@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shin7@3x.png"; sourceTree = "<group>"; };
+		3074B0C2241DDA4E00CAF8C3 /* shin20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shin20@3x.png"; sourceTree = "<group>"; };
+		3074B0C3241DDA4E00CAF8C3 /* shin21@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shin21@3x.png"; sourceTree = "<group>"; };
+		3074B0C4241DDA4E00CAF8C3 /* shin18@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shin18@3x.png"; sourceTree = "<group>"; };
+		3074B0C5241DDA4E00CAF8C3 /* shin13@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shin13@3x.png"; sourceTree = "<group>"; };
+		3074B0DD241DEBD900CAF8C3 /* shin22@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shin22@3x.png"; sourceTree = "<group>"; };
+		3098B5A02419FAC500B66E7A /* shinchan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shinchan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3098B5A32419FAC500B66E7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3098B5A42419FAC500B66E7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3098B5A62419FAC500B66E7A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3098B5A72419FAC500B66E7A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3098B5B02419FAC500B66E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3098B5B22419FAC700B66E7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3098B5B52419FAC700B66E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3098B5B72419FAC700B66E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3098B5B82419FAC700B66E7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3098B5C4241A7ECF00B66E7A /* launch@3x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "launch@3x.jpeg"; sourceTree = "<group>"; };
+		3098B5C8241A803400B66E7A /* stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = stickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3098B5CA241A803500B66E7A /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		3098B5CC241A803500B66E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30B2AB2C241D45B700B622AA /* appicon2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon2@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3098B59D2419FAC500B66E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3098B5972419FAC500B66E7A = {
+			isa = PBXGroup;
+			children = (
+				3098B5A22419FAC500B66E7A /* shinchan */,
+				3098B5C9241A803400B66E7A /* stickers */,
+				3098B5A12419FAC500B66E7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3098B5A12419FAC500B66E7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3098B5A02419FAC500B66E7A /* shinchan.app */,
+				3098B5C8241A803400B66E7A /* stickers.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3098B5A22419FAC500B66E7A /* shinchan */ = {
+			isa = PBXGroup;
+			children = (
+				3098B5BF2419FC1200B66E7A /* 图片 */,
+				3098B5A32419FAC500B66E7A /* AppDelegate.h */,
+				3098B5A42419FAC500B66E7A /* AppDelegate.m */,
+				3098B5A62419FAC500B66E7A /* SceneDelegate.h */,
+				3098B5A72419FAC500B66E7A /* SceneDelegate.m */,
+				3098B5C4241A7ECF00B66E7A /* launch@3x.jpeg */,
+				3074B0A7241D4B9900CAF8C3 /* StickerViewController.h */,
+				3074B0A8241D4B9900CAF8C3 /* StickerViewController.m */,
+				3074B0AA241DD6DC00CAF8C3 /* SGCollectionViewCell.h */,
+				3074B0AB241DD6DC00CAF8C3 /* SGCollectionViewCell.m */,
+				3074B0AC241DD6DC00CAF8C3 /* SGCollectionViewCell.xib */,
+				3098B5AF2419FAC500B66E7A /* Main.storyboard */,
+				3098B5B22419FAC700B66E7A /* Assets.xcassets */,
+				3098B5B42419FAC700B66E7A /* LaunchScreen.storyboard */,
+				3098B5B72419FAC700B66E7A /* Info.plist */,
+				3098B5B82419FAC700B66E7A /* main.m */,
+			);
+			path = shinchan;
+			sourceTree = "<group>";
+		};
+		3098B5BF2419FC1200B66E7A /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+				3074B0DD241DEBD900CAF8C3 /* shin22@3x.png */,
+				30B2AB2C241D45B700B622AA /* appicon2@2x.png */,
+				3074B0BB241DDA4D00CAF8C3 /* shin1@3x.png */,
+				3074B0B8241DDA4D00CAF8C3 /* shin2@3x.png */,
+				3074B0B7241DDA4D00CAF8C3 /* shin3@3x.png */,
+				3074B0B3241DDA4D00CAF8C3 /* shin4@3x.png */,
+				3074B0BC241DDA4E00CAF8C3 /* shin5@3x.png */,
+				3074B0BF241DDA4E00CAF8C3 /* shin6@3x.png */,
+				3074B0C1241DDA4E00CAF8C3 /* shin7@3x.png */,
+				3074B0C0241DDA4E00CAF8C3 /* shin8@3x.png */,
+				3074B0B9241DDA4D00CAF8C3 /* shin9@3x.png */,
+				3074B0AF241DDA4D00CAF8C3 /* shin10@3x.png */,
+				3074B0B0241DDA4D00CAF8C3 /* shin11@3x.png */,
+				3074B0B2241DDA4D00CAF8C3 /* shin12@3x.png */,
+				3074B0C5241DDA4E00CAF8C3 /* shin13@3x.png */,
+				3074B0BA241DDA4D00CAF8C3 /* shin14@3x.png */,
+				3074B0B1241DDA4D00CAF8C3 /* shin15@3x.png */,
+				3074B0BD241DDA4E00CAF8C3 /* shin16@3x.png */,
+				3074B0B4241DDA4D00CAF8C3 /* shin17@3x.png */,
+				3074B0C4241DDA4E00CAF8C3 /* shin18@3x.png */,
+				3074B0B5241DDA4D00CAF8C3 /* shin19@3x.png */,
+				3074B0C2241DDA4E00CAF8C3 /* shin20@3x.png */,
+				3074B0C3241DDA4E00CAF8C3 /* shin21@3x.png */,
+				3074B0B6241DDA4D00CAF8C3 /* shin23@3x.png */,
+				3074B0BE241DDA4E00CAF8C3 /* shin24@3x.png */,
+			);
+			path = "图片";
+			sourceTree = "<group>";
+		};
+		3098B5C9241A803400B66E7A /* stickers */ = {
+			isa = PBXGroup;
+			children = (
+				3098B5CA241A803500B66E7A /* Stickers.xcassets */,
+				3098B5CC241A803500B66E7A /* Info.plist */,
+			);
+			path = stickers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3098B59F2419FAC500B66E7A /* shinchan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3098B5BC2419FAC700B66E7A /* Build configuration list for PBXNativeTarget "shinchan" */;
+			buildPhases = (
+				3098B59C2419FAC500B66E7A /* Sources */,
+				3098B59D2419FAC500B66E7A /* Frameworks */,
+				3098B59E2419FAC500B66E7A /* Resources */,
+				3098B5D3241A803600B66E7A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3098B5CE241A803500B66E7A /* PBXTargetDependency */,
+			);
+			name = shinchan;
+			productName = shinchan;
+			productReference = 3098B5A02419FAC500B66E7A /* shinchan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3098B5C7241A803400B66E7A /* stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3098B5D0241A803500B66E7A /* Build configuration list for PBXNativeTarget "stickers" */;
+			buildPhases = (
+				3098B5C6241A803400B66E7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stickers;
+			productName = stickers;
+			productReference = 3098B5C8241A803400B66E7A /* stickers.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3098B5982419FAC500B66E7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = beyond;
+				TargetAttributes = {
+					3098B59F2419FAC500B66E7A = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					3098B5C7241A803400B66E7A = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 3098B59B2419FAC500B66E7A /* Build configuration list for PBXProject "shinchan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3098B5972419FAC500B66E7A;
+			productRefGroup = 3098B5A12419FAC500B66E7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3098B59F2419FAC500B66E7A /* shinchan */,
+				3098B5C7241A803400B66E7A /* stickers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3098B59E2419FAC500B66E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3074B0C7241DDA4E00CAF8C3 /* shin11@3x.png in Resources */,
+				3074B0CC241DDA4E00CAF8C3 /* shin19@3x.png in Resources */,
+				3074B0D4241DDA4E00CAF8C3 /* shin16@3x.png in Resources */,
+				3098B5B62419FAC700B66E7A /* LaunchScreen.storyboard in Resources */,
+				3074B0DA241DDA4E00CAF8C3 /* shin21@3x.png in Resources */,
+				3074B0D0241DDA4E00CAF8C3 /* shin9@3x.png in Resources */,
+				3074B0D5241DDA4E00CAF8C3 /* shin24@3x.png in Resources */,
+				3074B0AE241DD6DC00CAF8C3 /* SGCollectionViewCell.xib in Resources */,
+				30B2AB2D241D45B700B622AA /* appicon2@2x.png in Resources */,
+				3098B5B32419FAC700B66E7A /* Assets.xcassets in Resources */,
+				3074B0D6241DDA4E00CAF8C3 /* shin6@3x.png in Resources */,
+				3074B0C9241DDA4E00CAF8C3 /* shin12@3x.png in Resources */,
+				3098B5B12419FAC500B66E7A /* Main.storyboard in Resources */,
+				3074B0DE241DEBD900CAF8C3 /* shin22@3x.png in Resources */,
+				3074B0CA241DDA4E00CAF8C3 /* shin4@3x.png in Resources */,
+				3074B0C8241DDA4E00CAF8C3 /* shin15@3x.png in Resources */,
+				3074B0D7241DDA4E00CAF8C3 /* shin8@3x.png in Resources */,
+				3074B0C6241DDA4E00CAF8C3 /* shin10@3x.png in Resources */,
+				3074B0D9241DDA4E00CAF8C3 /* shin20@3x.png in Resources */,
+				3074B0CF241DDA4E00CAF8C3 /* shin2@3x.png in Resources */,
+				3098B5C5241A7ECF00B66E7A /* launch@3x.jpeg in Resources */,
+				3074B0DB241DDA4E00CAF8C3 /* shin18@3x.png in Resources */,
+				3074B0D8241DDA4E00CAF8C3 /* shin7@3x.png in Resources */,
+				3074B0DC241DDA4E00CAF8C3 /* shin13@3x.png in Resources */,
+				3074B0CD241DDA4E00CAF8C3 /* shin23@3x.png in Resources */,
+				3074B0D1241DDA4E00CAF8C3 /* shin14@3x.png in Resources */,
+				3074B0D2241DDA4E00CAF8C3 /* shin1@3x.png in Resources */,
+				3074B0CB241DDA4E00CAF8C3 /* shin17@3x.png in Resources */,
+				3074B0CE241DDA4E00CAF8C3 /* shin3@3x.png in Resources */,
+				3074B0D3241DDA4E00CAF8C3 /* shin5@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3098B5C6241A803400B66E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3098B5CB241A803500B66E7A /* Stickers.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3098B59C2419FAC500B66E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3098B5B92419FAC700B66E7A /* main.m in Sources */,
+				3074B0AD241DD6DC00CAF8C3 /* SGCollectionViewCell.m in Sources */,
+				3098B5A52419FAC500B66E7A /* AppDelegate.m in Sources */,
+				3074B0A9241D4B9900CAF8C3 /* StickerViewController.m in Sources */,
+				3098B5A82419FAC500B66E7A /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3098B5CE241A803500B66E7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3098B5C7241A803400B66E7A /* stickers */;
+			targetProxy = 3098B5CD241A803500B66E7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3098B5AF2419FAC500B66E7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3098B5B02419FAC500B66E7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3098B5B42419FAC700B66E7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3098B5B52419FAC700B66E7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3098B5BA2419FAC700B66E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3098B5BB2419FAC700B66E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3098B5BD2419FAC700B66E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = N7NJC6YLRV;
+				INFOPLIST_FILE = shinchan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.vwhm.shinchan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = net_vwhm_shinchan_dis_20200315;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3098B5BE2419FAC700B66E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = N7NJC6YLRV;
+				INFOPLIST_FILE = shinchan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.vwhm.shinchan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = net_vwhm_shinchan_dis_20200315;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3098B5D1241A803500B66E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = N7NJC6YLRV;
+				INFOPLIST_FILE = stickers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.vwhm.shinchan.stickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = appext_stickers_shinchan_dis_20200315;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3098B5D2241A803500B66E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = N7NJC6YLRV;
+				INFOPLIST_FILE = stickers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.vwhm.shinchan.stickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = appext_stickers_shinchan_dis_20200315;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3098B59B2419FAC500B66E7A /* Build configuration list for PBXProject "shinchan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3098B5BA2419FAC700B66E7A /* Debug */,
+				3098B5BB2419FAC700B66E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3098B5BC2419FAC700B66E7A /* Build configuration list for PBXNativeTarget "shinchan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3098B5BD2419FAC700B66E7A /* Debug */,
+				3098B5BE2419FAC700B66E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3098B5D0241A803500B66E7A /* Build configuration list for PBXNativeTarget "stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3098B5D1241A803500B66E7A /* Debug */,
+				3098B5D2241A803500B66E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3098B5982419FAC500B66E7A /* Project object */;
+}
